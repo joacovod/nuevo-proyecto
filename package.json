@@ -1,0 +1,17 @@
+{
+  "name": "nuevo-proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-compile": "./stylesheets/sass/index.scss ./stylesheets/css/index.css",
+    "sass-watch": "sass --watch ./stylesheets/sass/index.scss ./stylesheets/css/index.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.45.1"
+  }
+}
